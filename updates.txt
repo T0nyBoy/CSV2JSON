@@ -1,0 +1,37 @@
+1. basic function created to take the csv and create an array out of it.
+
+2. updated the function and split the FileReader and the creation of the array.
+
+3. Major update
+    -work with callback function to get the value of the inserted csv so we can use it in a function
+    -created and logged the json format that we want
+
+4. The app is taking shape
+    -created another js file with the function that creates the json format from the text exported from the callback of FileReader
+    -Next step should: 
+    1)To split the fileToArray() function from the main script
+    2)the makeArray function should check for error of the csv shape that we want
+    3)should be a class and not just a function
+
+5.  -Created html <code> for the JSON that was produced
+    -In case of no file an error message returns that the user needs to select a file
+    -Cleaned the value from the Browse file
+    -made function to check if there are empty headings
+    -made function to check if there are double values in the headings
+    -made function to check if the heading's length is shorter than the rest of data
+    -Next step should: 
+    1)To split the fileToArray() function from the main script
+    2)the makeArray function should check for error of the csv shape that we want
+    3)should be a class and not just a function
+    4)Create copy button to copy the whole json and add a pop up notification that file is copied
+
+6.  -created button that copies JSON to clipboard
+
+7.  -all functions are contained into a new class (arrayWorks) as methods
+    -moved all files to separate folders
+    -created pop-up message when copy JSON is empty and has nothing to copy
+    -created a css folder and styles.css file for future stylesheet works
+
+8.  -css file created
+    -Bootstrap used to create style
+    -Final version

@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(195, 201, 202);
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.jumbotron{
+    /* padding-top: 10px;
+    padding-left: 7vw; */
+    padding: 5px 25px;
+    height: fit-content;;
+    background-color: rgba(255, 99, 71, 0.449);
+}
+
+#formContainer{
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+#warningsHere{
+    margin: 0 20%;
+}
+
+#warningMsg{
+    background-color: red ;
+    color: white ;
+    border: transparent;
+    padding: 3px;
+    font-size: 0.8em;
+}
+
+#successMsg{
+    background-color: #28a745 ;
+    color: white ;
+    border: transparent;
+    padding: 3px;
+    font-size: 0.8em;
+}
+
+#JSONCode #JSONCode,code{
+    background-color: rgb(45, 45, 45);
+    color: greenyellow;
+    display: inline-block;
+    
+}
