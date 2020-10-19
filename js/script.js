@@ -86,6 +86,6 @@ const fileToArray = (csvFile, cbfunc)=>{ //we need the callback function so we c
         cbfunc(wholeText);
     }
     //call funtion we created to read the whole file
-    myFile.readAsText(csvFile);
+    myFile.readAsText(csvFile,"cp1258");
 }
 
