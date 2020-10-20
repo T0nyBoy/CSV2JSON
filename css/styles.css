@@ -44,6 +44,20 @@ h1{
 #JSONCode #JSONCode,code{
     background-color: rgb(45, 45, 45);
     color: greenyellow;
-    display: inline-block;
-    
+    display: inline-block;   
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.howItWorks{
+    background-color: rgb(45, 45, 45);
+    width: 80vw;
+    height: max-content;
 }

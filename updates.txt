@@ -35,3 +35,6 @@
 8.  -css file created
     -Bootstrap used to create style
     -Final version
+
+8.1.    -How to page added
+    
